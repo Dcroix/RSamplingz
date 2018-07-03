@@ -1,5 +1,5 @@
 # RSamplingz
-Repository for RSamplingz Package for R
+Repository for RSamplingz Package for R. RSamplingz is a package, currently in its development version, geared to make computations for sample size convenient for researchers (just in case you still need it even with the advent of Big Data). It is in my interest to regularly update it with more functions to compute for the sample size. For some typos and errors in computations please feel free to send an email. 
 ## Overview
 Package for Sampling which contains the following functions: 
 * Yamane's Equation with 95% or 99% Confidence Level (**Yamane95** / **Yamane99**), 
@@ -10,7 +10,7 @@ Package for Sampling which contains the following functions:
 * Modified Cochran for smaller Populations (**CochranMOD**),
 * Estimated sample size based on the Mean (**Smean**).
 ## Copyright
-Copyright 2018 Paolo G. Hilado (pghilado@protonmail.com)
+Copyright 2018 Paolo G. Hilado (pghilado@protonmail.com). Some rights reserved. 
 ## License
 GPL-3.0-or-later
 ### License Notice
