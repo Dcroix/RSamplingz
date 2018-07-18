@@ -1,5 +1,5 @@
-\name{CochranMOD}
-\alias{CochranMOD}
+\name{CochranMod}
+\alias{CochranMod}
 \title{
 Modified Cochran's Formula
 }
@@ -8,6 +8,14 @@ Computes a sample size for small populations
 }
 \usage{
 CochranMOD(no,N)
+}
+\arguments{
+  \item{no}{
+Computed value using the Cochran Formula
+}
+  \item{N}{
+Population for the study
+}
 }
 \details{
 Computes an adjusted sample size derived from Cochran's sample size recommendation for small populations
