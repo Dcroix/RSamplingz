@@ -7,7 +7,7 @@ Modified Cochran's Formula
 Computes a sample size for small populations
 }
 \usage{
-CochranMOD(no,N)
+CochranMod(no,N)
 }
 \arguments{
   \item{no}{
