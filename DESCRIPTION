@@ -1,9 +1,9 @@
 Package: RSamplingz
 Type: Package
 Title: Package for Sampling Needs
-Version: 0.1.0
+Version: 0.2.0
 Author: Paolo.Hilado<pghilado@protonmail.com>
 Maintainer: Paolo.Hilado<pghilado@protonmail.com>
-Description: "Package for Sampling which contains the following: Yamane's Equation with 95% or 99% Confidence Level (Yamane95 / Yamane99), Stratified Random Sampling with Equal Allocation with 95% or 99% Confidence Level (SRRequal95 / SRRequal99), Stratified Random Sampling with Proportional Allocation with 95% or 99% Confidence Level (SRRprop95 / SRRprop99), Systematic Sampling, Cochran's Formula (Cochran), Modified COchran for smaller Populations (CocrhanMOD) and Estimated sample size based on the Mean (Smean)."
+Description: "Package for Sampling which contains the following: Yamane's Equation with 95% or 99% Confidence Level (Yamane95 / Yamane99), Stratified Random Sampling with Equal Allocation with 95% or 99% Confidence Level (SRRequal95 / SRRequal99), Stratified Random Sampling with Proportional Allocation with 95% or 99% Confidence Level (SRRprop95 / SRRprop99), Systematic Sampling, Cochran's Formula (Cochran), Modified COchran for smaller Populations (CocrhanMOD) and Estimated sample size based on the Mean (Smean). This newer version also includes the sampleElements and sysElements functions."
 License: GPL-3.0-or-later
-  
+RoxygenNote: 6.0.1
