@@ -8,7 +8,9 @@ Package for Sampling which contains the following functions:
 * Systematic Sampling (**systematic**), 
 * Cochran's Formula (**Cochran**), 
 * Modified Cochran for smaller Populations (**CochranMOD**),
-* Estimated sample size based on the Mean (**Smean**).
+* Estimated sample size based on the Mean (**Smean**),
+* Generate a list of randomly selected elements from the Population (**sampleElements**),
+* Generate a list of systematically selected elements from the Population (**sysElements**).
 ## Copyright
 Copyright 2018 Paolo G. Hilado (pghilado@protonmail.com). Some rights reserved. 
 ## License
@@ -69,6 +71,46 @@ CochranMod(289, 800)
 #Estimated sample size based on the Mean
 Smean(1.96, 1.5, 0.25)
 [1] 139
+
+#sampleElements("NamesList.xlsx", "Names", 150, 15, 1)
+    Code   Surname FirstName
+9      9      Reid     Lovely
+25    25      Puth   Michelle
+29    29    Copper    Monique
+30    30  Martinez      Conie
+40    40     Gomez       Mina
+53    53   Clement      Clark
+56    56     Flynn        Isa
+85    85 Feliciano      Minho
+90    90    Madrid     Justin
+95    95    Wilson       Gwen
+105  105   Caporas     Edward
+131  131    Clarke      Julia
+134  134     Friar      Lucas
+137  137 Di Angelo      Hazel
+143  143     Black    Jillian
+
+#sysElements("NamesList.xlsx", "Names", 150, 15, 1)
+    Code  Surname FirstName
+3      3     Chua   Tiffany
+13    13   Franco   Candice
+23    23  Baldwin   Raymond
+33    33  Isabela   Carmela
+43    43    Ellis      Mark
+53    53  Clement     Clark
+63    63   Steele      Joan
+73    73 Felicimo     Keith
+83    83 Alvarado      Chad
+93    93    Freud      Ella
+103  103    Abria    Roland
+113  113  Subiate    Tresha
+123  123   Castle     Frank
+133  133 Matthews     Riley
+143  143    Black   Jillian
+
+## Disclaimer: Name/s that were presented in the example is/are purely fictional.
+In an event that name/s presented match those of real people, such instance
+is purely coincidental thus in no way done purposively by the author.
 ```
 
 ## Contributor Covenant
