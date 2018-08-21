@@ -17,7 +17,7 @@ abscissa of the normal curve that cuts off an area alpha at the tails
 estimated proportion of the population which has the attribute in question
 }
   \item{e}{
-desired level of precision
+desired level of precision / sampling error
 }
 }
 \details{

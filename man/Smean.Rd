@@ -17,7 +17,7 @@ abscissa of the normal curve that cuts off an area alpha at the tails
 sigma - the variance of an attribute in the population
 }
   \item{d}{
-desired level of precision (margin of error)
+desired level of precision / sampling error
 }
 }
 \details{
