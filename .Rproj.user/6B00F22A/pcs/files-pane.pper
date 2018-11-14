@@ -2,7 +2,7 @@
     "path" : "C:/R Files/RSamplingz/man",
     "sortOrder" : [
         {
-            "ascending" : true,
+            "ascending" : false,
             "columnIndex" : 2
         }
     ]

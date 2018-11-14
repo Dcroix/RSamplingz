@@ -14,7 +14,7 @@ CochranMod(no,N)
 Computed value using the Cochran Formula
 }
   \item{N}{
-Population for the study
+Population of the study
 }
 }
 \details{

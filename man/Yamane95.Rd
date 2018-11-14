@@ -4,7 +4,7 @@
 Yamane Equation for Sampling 95
 }
 \description{
-Computes sample size for known Population at 95 percent Level of Confidence which is accepted for social science studies
+Computes sample size for known Population at 95 percent Level of Confidence preferred for social science studies
 }
 \usage{
 Yamane95(x)

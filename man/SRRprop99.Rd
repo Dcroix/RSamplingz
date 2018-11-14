@@ -4,7 +4,7 @@
 Stratified Random Sampling with Proportional Allocation
 }
 \description{
-Computes for the sample per identified stratum which in proportion to the population of the same stratum; considers a 99 percent level of confidence
+Computes for the sample per identified stratum which is in proportion to the population of the same stratum; considers a 99 percent level of confidence
 }
 \usage{
 SRRprop99(x, y)

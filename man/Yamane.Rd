@@ -14,7 +14,7 @@ Yamane(x,y)
 Population to be used for computation of Sample
 }
   \item{y}{
-Desired precions level / sampling error
+Error Tolerance
 }
 }
 \details{

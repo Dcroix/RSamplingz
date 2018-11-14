@@ -4,7 +4,7 @@
 Sample Size for Mean
 }
 \description{
-A formula for Sample Size for the Mean
+A formula to estimate Sample Size through the Mean and SD
 }
 \usage{
 Smean(z, s, d)
@@ -14,7 +14,7 @@ Smean(z, s, d)
 abscissa of the normal curve that cuts off an area alpha at the tails
 }
   \item{s}{
-sigma - the variance of an attribute in the population
+standard deviation of an attribute in the population
 }
   \item{d}{
 desired level of precision / sampling error

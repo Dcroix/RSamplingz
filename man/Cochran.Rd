@@ -4,7 +4,7 @@
 Cochran's Formula
 }
 \description{
-Compute sample for proportions using Cochran's Formula
+Computes sample for proportions using Cochran's Formula
 }
 \usage{
 Cochran(z, p, e)
@@ -17,7 +17,7 @@ abscissa of the normal curve that cuts off an area alpha at the tails
 estimated proportion of the population which has the attribute in question
 }
   \item{e}{
-desired level of precision / sampling error
+margin of error for estimated proportion
 }
 }
 \details{

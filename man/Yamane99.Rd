@@ -4,7 +4,7 @@
 Yamane Equation for Sampling 99
 }
 \description{
-Computes sample size for known Population at 99 percent Level of Confidence which is preferred for studies on phenomenon with high risk
+Computes sample size for known Population at 99 percent Level of Confidence preferred for studies on phenomenon with high risk
 }
 \usage{
 Yamane99(x)
