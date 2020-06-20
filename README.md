@@ -3,20 +3,22 @@ Repository for RSamplingz Package for R. RSamplingz is a package, currently in i
 
 ## Overview
 Package for Sampling which contains the following functions: 
-* Yamane's Equation whereby user can specify the sampling error (**Yamane**)
-  **Notice** I once gave a training on the use of this package and many prefer others. This package provides
+* Cochran's Formula (**Cochran**), 
+* Modified Cochran for smaller Populations (**CochranMOD**),
+* Estimated sample size based on the Mean (**Smean**),
+* Estimate sample size using power and mean (**nPM**),
+* Estimate sample size using power and proportion (**nPP**),
+* Yamane's Equation whereby user can specify the sampling error (**Yamane**):
+  **Very Important Notice** I once gave a training on the use of this package and many prefer others. This package provides
   other alternatives to compute for your sample. 
 * Yamane's Equation with 95% or 99% Confidence Level (**Yamane95** / **Yamane99**), 
 * Stratified Random Sampling with Equal Allocation - 95% or 99% Confidence Level (**SRRequal95** / **SRRequal99**), 
 * Stratified Random Sampling with Proportional Allocation - 95% or 99% Confidence Level (**SRRprop95** / **SRRprop99**), 
 * Systematic Sampling (**systematic**), 
-* Cochran's Formula (**Cochran**), 
-* Modified Cochran for smaller Populations (**CochranMOD**),
-* Estimated sample size based on the Mean (**Smean**),
+
 * Generate a list of randomly selected elements from the Population (**sampleElements**),
 * Generate a list of systematically selected elements from the Population (**sysElements**).
-* Estimate sample size using power and mean (**nPM**)
-* Estimate sample size using power and proportion (**nPP**)
+
 
 ## Copyright
 Copyright 2018 Paolo G. Hilado (pghilado@protonmail.com). Some rights reserved. 
@@ -50,6 +52,24 @@ NOTE: It is very important to keep in mind that proxies should be turned off whe
 ## Usage
 ```
 library(RSamplingz)
+#Cochran's Formula
+ Cochran(1.96, 0.75, 0.05)
+[1] 289
+
+#Modified Cochran for smaller Populations
+CochranMod(289, 800)
+[1] 213
+
+#Estimated sample size based on the Mean
+Smean(1.96, 1.5, 0.25)
+[1] 139
+
+#nPM(0.05, 0.8, 50, 10)
+[1] "393 each group"
+
+#nPP(.05, .8, 50, 12)
+[1] "273 each group"
+
 #Yamane's Equation with specified sampling error
 Yamane(500,0.05)
 [1] 223
@@ -90,24 +110,6 @@ SRRprop99(500, 109)
 systematic(500, 10)
  [1]  20  70 120 170 220 270 320 370 420 470
  
-#Cochran's Formula
- Cochran(1.96, 0.75, 0.05)
-[1] 289
-
-#Modified Cochran for smaller Populations
-CochranMod(289, 800)
-[1] 213
-
-#Estimated sample size based on the Mean
-Smean(1.96, 1.5, 0.25)
-[1] 139
-
-#nPM(0.05, 0.8, 50, 10)
-[1] "393 each group"
-
-#nPP(.05, .8, 50, 12)
-[1] "273 each group"
-
 #sampleElements("NamesList.xlsx", "Names", 150, 15, 1)
     Code   Surname FirstName
 9      9      Reid     Lovely
