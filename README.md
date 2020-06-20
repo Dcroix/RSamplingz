@@ -4,7 +4,7 @@ Repository for RSamplingz Package for R. RSamplingz is a package, currently in i
 ## Overview
 Package for Sampling which contains the following functions: 
 * Yamane's Equation whereby user can specify the sampling error (**Yamane**)
-  P.S. I once gave a training on the use of this package and many prefers others. This package provides
+  **Notice** I once gave a training on the use of this package and many prefer others. This package provides
   other alternatives to compute for your sample. 
 * Yamane's Equation with 95% or 99% Confidence Level (**Yamane95** / **Yamane99**), 
 * Stratified Random Sampling with Equal Allocation - 95% or 99% Confidence Level (**SRRequal95** / **SRRequal99**), 
