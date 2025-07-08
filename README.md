@@ -1,4 +1,7 @@
-# RSamplingz v3.0
+# RSamplingz v4.0
+[![DOI](https://zenodo.org/badge/139537386.svg)](https://doi.org/10.5281/zenodo.15834640)
+![License: GPL v3.0](https://img.shields.io/badge/license-GPL%20v3.0-blue)
+
 Repository for RSamplingz Package used for the RSamplingz Online Sample Size calculator (just in case you still need it even with the advent of Big Data). It is in my interest to regularly update it with more functions to compute for the sample size. For some typos and errors in computations please feel free to send an email. The previous Version 2.0 enabled researchers to randomly (sampleElements function) and systematically (sysElements) select elements from the Population and have them included in the sample.The recent Version 4.0 includes functions that estimate sample size via power and mean (nPM), sample size estimation via power and proportion (nPP), and power analysis to determine sample size for three group comparison or more. [Link to online version or RSamplingz](https://pghilado.shinyapps.io/rsamplingz/)
 
 ## Overview
