@@ -14,11 +14,14 @@ Package for Sampling which contains the following functions:
 * Yamane's Equation whereby user can specify the sampling error (**Yamane**):
   **Very Important Notice** I once gave a training on the use of this package and many prefer others. This package provides
   other alternatives to compute for your sample. 
-* Yamane's Equation with 95% or 99% Confidence Level (**Yamane95** / **Yamane99**), 
+* Yamane's Equation with 95% or 99% Confidence Level (**Yamane95** / **Yamane99**),
+* Sample Estimation using Power for Correlations,
+* Sample Estimation using Power for Two Group Comparison - Paired,
+* Sample Estimation using Power for Two Group Comparison - Unpaired,
+* Sample Estimation using Power for > Two Group Comparison,
 * Stratified Random Sampling with Equal Allocation - 95% or 99% Confidence Level (**SRRequal95** / **SRRequal99**), 
 * Stratified Random Sampling with Proportional Allocation - 95% or 99% Confidence Level (**SRRprop95** / **SRRprop99**), 
 * Systematic Sampling (**systematic**), 
-
 * Generate a list of randomly selected elements from the Population (**sampleElements**),
 * Generate a list of systematically selected elements from the Population (**sysElements**).
 
