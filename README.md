@@ -1,4 +1,4 @@
-# RSamplingz v4.0
+# RSamplingz v5.0
 [![DOI](https://zenodo.org/badge/139537386.svg)](https://doi.org/10.5281/zenodo.15834640)
 ![License: GPL v3.0](https://img.shields.io/badge/license-GPL%20v3.0-blue)
 
